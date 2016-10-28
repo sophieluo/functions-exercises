@@ -48,3 +48,15 @@ function pythagoreanTheorem(a, b) {
 
 var result = pythagoreanTheorem(3, 4);
 console.log(result);
+
+//sixth question
+function isXEvenlyDivisibleByY(x, y) {
+    if (x%y===0) {
+      return true
+      console.log("true");
+    }
+    else return false
+}
+
+var result = isXEvenlyDivisibleByY(99, 3);
+console.log(result);
