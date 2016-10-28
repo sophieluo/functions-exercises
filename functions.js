@@ -35,9 +35,16 @@ console.log(result);
 //fourth function
 function areaOfACircle(radius) {
     return Math.PI*radius*radius
-    console.log(Math.PI)
+    console.log(Math.PI*radius*radius)
 }
 
 areaOfACircle(2);
 
 //fifth function
+function pythagoreanTheorem(a, b) {
+  return Math.sqrt(a*a+b*b)
+  console.log(Math.sqrt(a*a+b*b))
+}
+
+var result = pythagoreanTheorem(3, 4);
+console.log(result);
