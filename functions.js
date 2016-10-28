@@ -84,3 +84,10 @@ function findWdi(arr){
       }
       return false;
      }
+
+//nineth
+function printTriangle(length) {
+    
+}
+
+printTriangle(3);
