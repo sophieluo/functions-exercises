@@ -139,4 +139,5 @@ function printPyramid(length) {
 		console.log(tier);
 	}
 }
+
 //printPyramid(10);

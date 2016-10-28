@@ -102,5 +102,18 @@ printTriangle(3);
 
 //last
 function printPyramid(length) {
-    // TODO: Place your code here
+	for (var x=1; x<=length; x++) {
+	var numStar = '';
+
+    	for (var y=length;y>=x;y--) {
+    	numStar += ' ';
+    	 }
+    	 for (var z=0;z<x;z+=1) {
+    		numStar += '* '
+    	}
+
+    console.log(numStar);
+	}
 }
+
+printPyramid(10);
