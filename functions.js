@@ -60,3 +60,17 @@ function isXEvenlyDivisibleByY(x, y) {
 
 var result = isXEvenlyDivisibleByY(99, 3);
 console.log(result);
+
+//seventh function
+function countVowels(word) {
+    var counter=0;
+    for (i=0;i<word.length;i++) {
+        if (word[i]==='a'||word[i]==='e'||word[i]==='i'||word[i]==='o'||word[i]==='u'||word[i]==='y') {
+            counter++;
+    }
+    }
+    return counter;
+}
+
+var result = countVowels("stealing");
+console.log(result);
