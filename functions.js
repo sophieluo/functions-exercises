@@ -87,7 +87,20 @@ function findWdi(arr){
 
 //nineth
 function printTriangle(length) {
-    
+	for(var x = 1; x <= length; x++) {
+
+		var numStar = '';
+
+		for(var y = 0; y < x; y++) {
+			numStar += '*';
+		}
+	   console.log(numStar);
+	}
 }
 
 printTriangle(3);
+
+//last
+function printPyramid(length) {
+    // TODO: Place your code here
+}
