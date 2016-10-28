@@ -74,3 +74,13 @@ function countVowels(word) {
 
 var result = countVowels("stealing");
 console.log(result);
+
+//eighth function
+findWdi([9,'Bart Simpson', true, 'wdi']) // returns true
+findWdi(['a','b','c']) // returns false
+function findWdi(arr){
+    for (var i=0;i<arr.length;i++) {
+         if (arr[i]==='wdi') return true
+      }
+      return false;
+     }
